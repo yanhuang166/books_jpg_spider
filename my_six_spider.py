@@ -1,8 +1,8 @@
-import os
-import requests
-from bs4 import BeautifulSoup
-import time
-from urllib.parse import urljoin
+import os   # 系统控制库
+import requests # 请求网页库
+from bs4 import BeautifulSoup # 解析网页库
+import time # 时间推迟库
+from urllib.parse import urljoin # 网页拼接库
 
 url = 'https://books.toscrape.com/'
 count = 0
